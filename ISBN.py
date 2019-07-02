@@ -1,0 +1,5 @@
+x = input()
+print(int(x[0])*10+int(x[1])*9+int(x[2])*8+int(x[3])*7+int(x[4])*6+int(x[5])*5+int(x[6])*4+int(x[7])*3+int(x[8])*2)
+n = 11-((int(x[0])*10+int(x[1])*9+int(x[2])*8+int(x[3])*7+int(x[4])*6+int(x[5])*5+int(x[6])*4+int(x[7])*3+int(x[8])*2)%11)
+print(n)
+print(str(x)+str(n))

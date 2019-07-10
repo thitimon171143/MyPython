@@ -9,6 +9,7 @@ out_timemin = (hrouttime*60)+minouttime
 
 #cal
 time_hr = hrouttime-hrintime
+
 time_min = minouttime-minintime
 summin= (time_hr*60)+time_min
 

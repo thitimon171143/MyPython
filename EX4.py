@@ -7,10 +7,14 @@ cho = int(input('Select operation form 1,2,3,4 : '))
 first = int(input('Enter first number : '))
 second = int(input('Enter second number : '))
 if cho ==1 :
-    print(first,'+',second,'=',first+second)
+    total = (first+second)
+    print(first,'+',second,'=',total)
 elif cho ==2 :
-    print(first,'-',second,'=',first-second)
+    total = (first-second)
+    print(first,'-',second,'=',total)
 elif cho ==3 :
-    print(first,'*',second,'=',first*second)
+    total = (first*second)
+    print(first,'*',second,'=',total)
 else :
-    print(first,'/',second,'=',first/second)
+    total = (first/second)
+    print(first,'/',second,'=',total)

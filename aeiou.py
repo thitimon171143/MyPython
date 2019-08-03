@@ -1,29 +1,16 @@
-'''
-sentence = input('Enter word : ')
-count = 0
-
-for x in sentence :
-        if x in 'a' or 'e' or 'i'
-         if x in 'aeiou' :
-        count += 1
-
-print(count)
-'''
-
-'''
-in1 = input(":")
-Te = ['a','u','i','o','e']
+word = input("Enter your word : ")
+vowel = ['a','u','i','o','e']
 n = 0
 i = 0
 up= 0
 num = 0
 
-len_in = len(in1)
-len_Te = len(Te)
+len_in = len(word)
+len_Te = len(vowel)
 
 for i in range(len_in) :
     for ii in range(len_Te) :
-        if in1[i] in Te[ii]:
+        if word[i] in vowel[ii]:
             n = 1
     if n == 1 and up == 0:
         num += 1
@@ -31,5 +18,4 @@ for i in range(len_in) :
     elif n == 0 :
         up = 0
     n = 0
-print (num)
-'''
+print('Your vowel is',num)

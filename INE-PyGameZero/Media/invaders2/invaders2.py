@@ -190,7 +190,7 @@ def updateLasers():
         if lasers[l].type == 0:
             lasers[l].y += 2
             checkLaserHit(l)
-            if lasers[l].y > 60∏0:
+            if lasers[l].y > 600:
                 lasers[l].status = 1
         if lasers[l].type == 1:
             lasers[l].y -= 5

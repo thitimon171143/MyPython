@@ -1,5 +1,5 @@
 def main():
-    infile = open('philosophers.txt','r')
+    infile = open('/Users/Python/Desktop/MyPython/final 2562-1/file-n-exceptions/philosophers.txt','r')
     line1 = infile.readline()
     line2 = infile.readline()
     line3 = infile.readline()
@@ -10,4 +10,9 @@ def main():
     print(line1)
     print(line2)
     print(line3)
+    a = (len(line1.split()))
+    b = (len(line2.split()))
+    c = (len(line3.split()))
+    total = a+b+c
+    print(total)
 main()

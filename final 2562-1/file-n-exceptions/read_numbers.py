@@ -1,5 +1,5 @@
 def main():
-    infile = open('numbers.txt','r')
+    infile = open('/Users/Python/Desktop/MyPython/final 2562-1/file-n-exceptions/numbers.txt','r')
     num1 = int(infile.readline())
     num2 = int(infile.readline())
     num3 = int(infile.readline())

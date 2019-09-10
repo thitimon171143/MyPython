@@ -14,3 +14,8 @@ print(phonebook)
 
 del phonebook['Simpson']
 print(phonebook)
+
+if key in phonebook:
+    print(phonebook[key])
+else:
+    print(key+' not in phonebook')

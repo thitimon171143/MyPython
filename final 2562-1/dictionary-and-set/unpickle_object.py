@@ -1,7 +1,7 @@
 import pickle
 def main():
     end_of_file = False
-    input_file = open('info.dat','rb')
+    input_file = open('/Users/Python/Desktop/MyPython/final 2562-1/dictionary-and-set/info.dat','rb')
     while not end_of_file:
         try:
             person = pickle.load(input_file)
@@ -14,4 +14,4 @@ def display_data(person):
     print('Age:',person['age'])
     print('Weight:',person['weight'])
     print()
-main
+main()

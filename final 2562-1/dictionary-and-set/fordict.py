@@ -6,3 +6,7 @@ for key in phonebook:
     print(key,'phone number is :',phonebook[key])
 phonebook['Bart'][1] = 9
 print(phonebook)
+
+print()
+for i in list(phonebook)[::-1]:
+    print(i,'phone number is :',phonebook[i])
